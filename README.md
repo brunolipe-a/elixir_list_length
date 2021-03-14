@@ -1,21 +1,14 @@
 # ListLength
 
-**TODO: Add description**
+## :computer: About the challenge
 
-## Installation
+In this challenge, you must create a function that, given a list of numbers (example `[1, 3, 6, 43, 6]`), calculate, **recursively**, how many elements are in the list and return that value.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `list_length` to your list of dependencies in `mix.exs`:
+For example, we have the following input e expected output for the function that receves the list:
 
-```elixir
-def deps do
-  [
-    {:list_length, "~> 0.1.0"}
-  ]
-end
+```bash
+iex> ListLength.call([1, 2, 3, 5, 7])
+...> 5
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/list_length](https://hexdocs.pm/list_length).
-
+💜 Thanks to [Rocketseat](https://github.com/rocketseat-education) 👋

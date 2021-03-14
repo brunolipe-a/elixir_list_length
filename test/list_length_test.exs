@@ -9,6 +9,14 @@ defmodule ListLengthTest do
     assert response == 6
   end
 
+  test "return the length of a list with different types" do
+    list = ["banana", 3, 5.5, "shield", 54, true]
+
+    response = ListLength.call(list)
+
+    assert response == 6
+  end
+
   test "return 0 to an empty list" do
     list = []
 
